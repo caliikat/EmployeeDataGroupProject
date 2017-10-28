@@ -15,8 +15,8 @@ var database = firebase.database();
 
 //upon clicking the "add employee" button
 $("add-employeeButton").on("click", function() {
-  var employeeName = 
-  var role = 
-  var startDate = 
-  var monthlyRate = 
+  var employeeName = $("#employee-name").val().trim();
+  var role = $("#role").val().trim();
+  var startDate = $("#start-date").val().trim();
+  var monthlyRate = $("#monthly-rate").val().trim();
 });
